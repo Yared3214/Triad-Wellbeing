@@ -15,13 +15,13 @@ export const PILLARS = [
 
 export const DEFAULT_MICRO_ACTIVITIES = {
   Spiritual: [
-    { name: 'Meditation (5 min)', description: 'Mindfulness practice' },
-    { name: 'Gratitude Journal', description: 'Write down 3 things you are grateful for' },
-    { name: 'Nature Walk', description: 'Spend time outdoors' },
+    { name: 'Pray (15 - 20 min)', description: 'Mindfulness practice' },
+    { name: 'Read Bible', description: 'Write down 3 things you are grateful for' },
+    { name: 'Read Spiritual books', description: 'Spend time outdoors' },
     { name: 'Deep Breathing', description: '5 minutes of conscious breathing' },
   ],
   Mental: [
-    { name: 'Read (10 min)', description: 'Engage with a book or article' },
+    { name: 'Read (20 min)', description: 'Engage with a book or article' },
     { name: 'Learn Something New', description: 'Watch a tutorial or read about a new topic' },
     { name: 'Puzzle/Brain Game', description: 'Solve a puzzle or play a brain-training game' },
     { name: 'Mindful Moment', description: 'Observe your surroundings for 1 minute' },
@@ -30,6 +30,6 @@ export const DEFAULT_MICRO_ACTIVITIES = {
     { name: 'Stretch (5 min)', description: 'Light stretching exercises' },
     { name: 'Walk (15 min)', description: 'A brisk walk' },
     { name: 'Hydrate', description: 'Drink a glass of water' },
-    { name: 'Quick Workout (10 min)', description: 'Short burst of physical activity' },
+    { name: 'Quick Workout (20 min)', description: 'Short burst of physical activity' },
   ],
 };
