@@ -165,7 +165,7 @@ export function DailyCheckIn({ onComplete }: DailyCheckInProps) {
   }, {} as Record<string, MicroActivity[]>);
 
   return (
-    <div className="space-y-6 p-4">
+    <div className="space-y-6 px-4 py-10">
       {PILLARS.map(pillar => (
         <div key={pillar.id} className="border rounded-md p-4">
           <h3 className="text-xl font-semibold mb-2 text-primary">{pillar.name}</h3>

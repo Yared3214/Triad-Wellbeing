@@ -14,6 +14,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Flame, Trophy } from 'lucide-react';
 import { MorningIntentForm } from '@/components/morning-intent-form';
 import { EveningReflectionForm } from '@/components/evening-reflection-form';
+import { ScrollArea } from '@/components/ui/scroll-area';
 
 interface Streak {
   pillar_id: string | null;
@@ -280,7 +281,9 @@ export default function DashboardPage() {
                 Mark the micro-activities you completed today.
               </SheetDescription>
             </SheetHeader>
+            <ScrollArea className="h-full">
             <DailyCheckIn onComplete={handleCheckInComplete} />
+            </ScrollArea>
           </SheetContent>
         </Sheet>
 
