@@ -16,8 +16,8 @@ export const PILLARS = [
 export const DEFAULT_MICRO_ACTIVITIES = {
   Spiritual: [
     { name: 'Pray (15 - 20 min)', description: 'Mindfulness practice' },
-    { name: 'Read Bible', description: 'Write down 3 things you are grateful for' },
-    { name: 'Read Spiritual books', description: 'Spend time outdoors' },
+    { name: 'Read Bible', description: 'Read 3-5 verses' },
+    { name: 'Read Spiritual books', description: 'Read for 30 min' },
     { name: 'Deep Breathing', description: '5 minutes of conscious breathing' },
   ],
   Mental: [
